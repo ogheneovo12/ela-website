@@ -34,17 +34,18 @@ export default function Navbar() {
         );
       }
     );
-
-    $(window).on("scroll", function () {
-      // Header Menu Fixed
-      if ($(window).scrollTop() > 30) {
-        $("body").addClass("header-menu-fixed");
-        $(".scroll-d-block").addClass("d-block");
-      } else {
-        $("body").removeClass("header-menu-fixed");
-        $(".scroll-d-block").removeClass("d-block");
-      }
-    });
+    if (typeof window !== "undefined") {
+      $(window).on("scroll", function () {
+        // Header Menu Fixed
+        if ($(window).scrollTop() > 30) {
+          $("body").addClass("header-menu-fixed");
+          $(".scroll-d-block").addClass("d-block");
+        } else {
+          $("body").removeClass("header-menu-fixed");
+          $(".scroll-d-block").removeClass("d-block");
+        }
+      });
+    }
   }, []);
 
   return (
