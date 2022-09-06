@@ -1,17 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  FiChevronDown,
-  FiShoppingCart,
-  FiSearch,
-  FiChevronRight,
-} from "react-icons/fi";
+import { FiChevronDown, FiSearch, FiChevronRight } from "react-icons/fi";
 import HeaderBar from "../common/HeaderBar";
-import { ProductConsumer } from "components/context/productcontext";
+
 import $ from "jquery";
-import MenuCart from "./menucart/MenuCart";
+
 import { FaTimes } from "react-icons/fa";
 import sectiondata from "../../store/store";
+import { ensureWindow } from "utils/ensureWindow";
+
+ensureWindow();
 
 export default function Navbar() {
   const [searchOpen, setsearchOpen] = useState(false);
@@ -125,7 +123,6 @@ export default function Navbar() {
               <div className="header-menu-right-flex">
                 <div className="header-menu-cart">
                   <ul>
-                    
                     <li>
                       <Link
                         to="#"

@@ -2,6 +2,8 @@ import React from "react";
 import { FiChevronUp } from "react-icons/fi";
 import $ from "jquery";
 
+ensureWindow();
+
 export default function ScrollTopBtn() {
   React.useEffect(() => {
     $(window).on("scroll", function () {
