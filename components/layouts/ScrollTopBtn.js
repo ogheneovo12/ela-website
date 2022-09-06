@@ -1,6 +1,7 @@
 import React from "react";
 import { FiChevronUp } from "react-icons/fi";
 import $ from "jquery";
+import { ensureWindow } from "utils/ensureWindow";
 
 ensureWindow();
 
