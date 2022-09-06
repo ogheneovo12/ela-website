@@ -7,9 +7,7 @@ import $ from "jquery";
 
 import { FaTimes } from "react-icons/fa";
 import sectiondata from "../../store/store";
-import { ensureWindow } from "utils/ensureWindow";
 
-ensureWindow();
 
 export default function Navbar() {
   const [searchOpen, setsearchOpen] = useState(false);
