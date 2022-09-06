@@ -10,7 +10,7 @@ export default function FeaturedProduct() {
                 <div className="shop-featured-product-grid d-grid">
                     <div className="left">
                         <h1>Contrary to to Popular Belief is Simply Rand.</h1>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable.</p>
                         <div className="shop-featured-left-mdl-grid d-grid">
                             <div className="left">
                                 <h2>Hardwood Frame</h2>
