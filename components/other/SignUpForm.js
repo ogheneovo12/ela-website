@@ -34,11 +34,11 @@ export default function SignUpForm() {
                         <input className="form-control" type="password" placeholder="Password" />
                         <input className="form-control" type="password" placeholder="Confirm Password" />
                         <div className="checkboxes">
-                            <label className="privacy-policy"> I agree to Minzel's <a href="https://techydevs.com">Privacy Policy</a>
+                            <label className="privacy-policy"> I agree to Minzel&apos;s <a href="https://techydevs.com">Privacy Policy</a>
                                 <input type="checkbox" />
                                 <span className="checkmark"></span>
                             </label>
-                            <label className="privacy-policy"> I agree to Minzel's <a href="https://techydevs.com">Terms of Services</a>
+                            <label className="privacy-policy"> I agree to Minzel&apos;s <a href="https://techydevs.com">Terms of Services</a>
                                 <input type="checkbox" />
                                 <span className="checkmark"></span>
                             </label>

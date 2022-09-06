@@ -9,7 +9,7 @@ export default function ForgotPassForm() {
                 <div className="signup-form-box">
                     <div className="signup-form-top">
                         <h1 className="signup-form-title">Reset Password</h1>
-                        <p>Enter the email of your account to reset password. Then you will receive a link to email to reset the password.If you have any issue about reset password <a href="/contact">contact us</a></p>
+                        <p>Enter the email of your account to reset password. Then you will receive a link to email to reset the password.If you have any issue about reset password <Link href="/contact">contact us</Link></p>
                     </div>
                     <form className="signup-form">
                         <input className="form-control" type="email" placeholder="Enter email address" />

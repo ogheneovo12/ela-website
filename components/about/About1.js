@@ -45,13 +45,14 @@ export default class About1 extends Component {
               <h1 className="about-left-title">
                 Message from the <strong color="#946128">founder.</strong>
               </h1>
+              {/* <!-- eslint-enable react/no-unescaped-entities --> */}
               <p className="about-left-desc">
                 Law and the practice thereof, is indeed an integral part of our
                 society. The law is highly susceptible to periodic amendments as
                 the world advances further. It is therefore pertinent to
                 continuously improve the knowledge, skills as well as aid in the
                 acquisition of globally recognized accreditations to the benefit
-                of Nigeria's corporate professionals. In partnership with the
+                of Nigeria&apos;s corporate professionals. In partnership with the
                 Nigerian Bar Association, and various other relevant
                 institutional bodies, our goal in the ELA is to contribute our
                 quota towards the overall amelioration of our society through
@@ -60,7 +61,7 @@ export default class About1 extends Component {
                 all fellows, partners and subscribers so as to align with
                 international global best practices for professionals. In a bid
                 to attain optimum productivity and exposure, it is crucial that
-                the nation's legal practitioners and professionals alike be
+                the nation&apos;s legal practitioners and professionals alike be
                 granted frequent progressive capacity development and policy
                 amelioration programs. These ideals and allied matters form the
                 basis upon which the Elite Lawyers Association (ELA) exists and
