@@ -46,13 +46,13 @@ import img1 from "../assets/images/about-img.jpg"; // 458x315
 import img2 from "../assets/images/about-img4.jpg"; // 555x354
 import img3 from "../assets/images/testi-img1.jpg"; // 100x100
 import img4 from "../assets/images/img1.jpg"; // 360x370
-import gen_sec_img from "../assets/images/gen-sec.jpeg"
-import vp_img from "../assets/images/vp.jpeg"
+import gen_sec_img from "../assets/images/gen-sec.jpeg";
+import vp_img from "../assets/images/vp.jpeg";
 import img5 from "../assets/images/client1.png"; // 110x39
 import img6 from "../assets/images/client2.png"; // 160x32
 import img7 from "../assets/images/client3.png"; // 156x33
 import img8 from "../assets/images/client4.png"; // 137x36
-import img9 from "../assets/images/client5.png"; // 161x35
+import img9 from "../assets/images/client5.jpg"; // 161x35
 import img10 from "../assets/images/img1.jpg"; // 555x368
 import img11 from "../assets/images/img11.jpg"; // 1140x594
 import img12 from "../assets/images/team-8.jpg"; // 360x453
@@ -149,7 +149,7 @@ const sectiondata = {
         description:
           "We exist to enrich lives, promote social equality and advance understanding in the Nigerian Legal System through integrity, service, leadership and diversity.",
         button1: "Get Started",
-        button2: "Learn More",
+        button2: "Learn Moore",
         button1url: "#",
         button2url: "#",
         bg: herosliderbg?.src,
@@ -167,7 +167,7 @@ const sectiondata = {
         col: "8 offset-2 text-center",
       },
       {
-        title: "Promote networking opportunities among members.",
+        title: "Promote networking opportunities among members",
         description:
           "Our organization strives to aid its fellows attain membership into International Law Societies and networks for wider range of professional relationships and expertise.",
         button1: "Let's Start Now",
@@ -288,24 +288,24 @@ const sectiondata = {
   },
   Services: {
     Service1: {
-      secTitle: "We Are The Elite Lawyers Association.",
+      secTitle: "We Are The Elite Lawyers Association",
       secSubtitle: "What we do.",
       secButton: "Learn More",
       secButtonUrl: "/",
       serviceLists: [
         {
           icon: <GiGraduateCap className="service-items-icon" />,
-          title: "ElA Academy.",
+          title: "ELA Academy",
           titleurl: "/service-details",
           description:
-            "The ELA is a platform where legal minds and professionals enjoy sensitization from renowned and vastly experienced professionals regarding practical aspects of the law and other sectors of life",
+            "ELA is a platform where legal minds and professionals enjoy sensitization from renowned and vastly experienced professionals regarding practical aspects of the law and other sectors of life.",
           showbtn: true,
           buttontext: "Learn More",
           buttonurl: "/service-details",
         },
         {
           icon: <HiUserGroup className="service-items-icon" />,
-          title: "ELA Assocaition.",
+          title: "ELA Assocaition",
           titleurl: "/service-details",
           description:
             "It is a platform of legal minds with the vision to be vibrant and proactive professionals, making a global difference while fostering commitment, diversity, fellowship and integrity amongst lawyers as well as the public.",
@@ -326,7 +326,7 @@ const sectiondata = {
       ],
     },
     Service2: {
-      sectitle: "We Provide Wide Range of Business Services.",
+      sectitle: "We Provide Wide Range of Business Services",
       secsubtitle: "You Deserve Best Services",
       content:
         "Investiga tiones demonstr averunt lectores legere me lius quod ii qua legunt saepius. Claritas est etiam pro cessus dynamicus, qui sequitur mutaety tion em consu etudium awquod he legunt saepius clary tyitas Investig atifonesw. tionem consu etudium.",
@@ -384,8 +384,7 @@ const sectiondata = {
         icon: <FaHandshake className="service-items-icon" />,
         title: "Our Core Values.",
         titleurl: "/service-details",
-        description:
-          "Excellence • Social Equality •	Integrity •	Courage",
+        description: "Excellence • Social Equality •	Integrity •	Courage",
         showbtn: true,
         buttontext: "Learn More",
         buttonurl: "/service-details",
@@ -1144,7 +1143,7 @@ const sectiondata = {
             url: "https://youtube.com",
           },
         ],
-        buttontext: "Read His Story",
+        buttontext: "Read Her Story",
         buttonurl: "/team-details",
       },
       {
@@ -1713,5 +1712,12 @@ const sectiondata = {
       ],
     },
   },
+  galleryData: [...new Array(77).keys()]?.map((val) => ({
+    photo: `/gallery/gallery_${val + 1}.jpeg`,
+    number: val + 1,
+    caption: "Ela Gallery",
+    subcaption: "Photo's from various ela's engagements",
+    thumbnail: "",
+  })),
 };
 export default sectiondata;

@@ -10,8 +10,8 @@
 		Default Color Variables
  --------------------------------------------- */
 :root {
-  --primary_color: #946128;
-  --secondary_color: #272727;
+  --primary_color: rgb(232, 167, 88);
+  --secondary_color: rgb(18, 18, 34);
   --paragraph_color: #677286;
   --white_color: #ffffff;
   --black_color: #000000;
@@ -1984,7 +1984,7 @@ blockquote .quote-icon {
 }
 .hero-slider-wrapper .hero-slider-item:before {
   content: "";
-  background: rgba(59, 62, 121, 0.6);
+  background: rgb(19, 20, 35, 0.5);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -6375,6 +6375,11 @@ select {
   position: relative;
   padding: 5px 0 60px 0;
 }
+.clients-wrapper h2 {
+  text-align: center;
+  margin: 30px 0px;
+  color: var(--primary_color);
+}
 .clients-wrapper .items {
   vertical-align: center;
 }
@@ -9616,7 +9621,7 @@ select {
 
 .anthem_box {
   max-width: 30rem;
-  width:100%;
+  width: 100%;
   height: 20rem;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -9624,8 +9629,12 @@ select {
   backdrop-filter: blur(5px);
   margin: 0 auto;
   padding: 20px;
-  color:#fff;
+  color: #fff;
   font-style: italic;
 }
 
-
+.gallery_wrapper {
+  padding-top: 113px;
+  padding-bottom: 120px;
+  text-align: center;
+}

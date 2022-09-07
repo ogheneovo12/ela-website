@@ -1,26 +1,20 @@
-import React from "react";
+import Gallery from "components/gallery/Gallery";
+import { FiChevronRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import Anthem from "sections/Anthem";
+import About1 from "../components/about/About1";
+import Blog from "../components/blog/Blog";
 import Navbar from "../components/common/Navbar";
 import SectionsTitle from "../components/common/SectionsTitle";
-import About1 from "../components/about/About1";
-import Divider from "../components/other/Divider";
-import About from "../components/about/About";
-import CounterUp from "../sections/CounterUp";
-import HeroSlider from "../components/sliders/HeroSlider";
-import SimpleTab from "../components/tabs/SimpleTab";
-import Cta from "../sections/Cta";
-import Team from "../components/team/Team";
-import ChartArea from "../sections/ChartArea";
-import Clients from "../sections/Clients";
-import Pricing from "../sections/Pricing";
 import CtaForm from "../components/other/CtaForm";
-import Blog from "../components/blog/Blog";
-import { Link } from "react-router-dom";
-import { FiChevronRight } from "react-icons/fi";
+import Divider from "../components/other/Divider";
 import Footer from "../components/other/Footer";
-import sectiondata from "../store/store";
+import HeroSlider from "../components/sliders/HeroSlider";
+import Team from "../components/team/Team";
+import Clients from "../sections/Clients";
+import Cta from "../sections/Cta";
 import ServiceSection1 from "../sections/services/ServiceSection1";
-import TestimonialSection from "../sections/TestimonialSections";
-import Anthem from "sections/Anthem";
+import sectiondata from "../store/store";
 
 export default function Home() {
   return (
@@ -85,6 +79,8 @@ export default function Home() {
 
       {/* Clients Logo */}
       <Clients sliders={sectiondata.Sliders.clientlogos} />
+
+      <Gallery showBtn len={9} />
 
       {/* Pricing Table */}
       {/* <Pricing

@@ -7,7 +7,7 @@ export default function FooterError() {
     return (
         <footer className="error-footer-wrapper d-flex">
             <div className="left">
-                <p>&copy; Copyright Minzel 2020. Made with <FiHeart className="icon" /> by <a href="https://techydevs.com">TechyDevs.</a></p>
+            <p>&copy; Copyright ELA 2022.</p>
             </div>
             {sectiondata.errorpagedata.footermenu ?
                 <div className="right">

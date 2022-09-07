@@ -8,7 +8,7 @@ export default function Cta() {
             <div className="container">
                 <div className="row">
                     <div className="col-8">
-                        <h1>This Year <strong>55 Lawyers</strong> have been impacted by ElA.</h1>
+                        <h1>This Year <strong>55 Lawyers</strong> have been impacted by ELA.</h1>
                     </div>
                     <div className="col-4 text-right">
                         <Link to="/#" className="theme-button">Join ELA Today <FiChevronRight className="icon" /></Link>
